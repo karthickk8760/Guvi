@@ -1,2 +1,2 @@
 a=input()
-print(len(str(a)))
+print(a+1)
