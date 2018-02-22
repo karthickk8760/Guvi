@@ -1,8 +1,3 @@
 a=input()
-b=0
-c=[]
-for b in range(0,a):
-    d=int(raw_input())
-    c.append(d)
-f=sum(c)
-print(f)
+b=input()
+print(a+b)
