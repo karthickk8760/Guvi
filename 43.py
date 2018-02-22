@@ -1,3 +1,4 @@
 a=raw_input()
 b=raw_input()
-print(a+b)
+c=a+b
+print(c)
