@@ -1,4 +1,5 @@
 for i in range(0,3):
-   a=input()
-   b=input()
+   a,b=raw_input().split(" ")
+   a=int(a)
+   b=int(b)
    print(a-b)
