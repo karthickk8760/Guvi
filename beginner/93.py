@@ -1,2 +1,2 @@
 a=raw_input()
-print(float(a)+273.15)
+print(int(float(a)+273.15))
