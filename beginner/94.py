@@ -1,6 +1,7 @@
-a,b=input(),input()
-    c=[]
-    for i in range(0,a):
-        d=input()
-        c.append(d)
-    print(c[b])
+n=input()
+    k=input()
+    a=[]
+    for x in range(0,n):
+	   t=int(input())
+	   a.append(t)
+    print(a[k-1])
