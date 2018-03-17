@@ -1,2 +1,2 @@
-s=input();
-    print(chr(s+64));
+a=input();
+    print(chr(a+64));
