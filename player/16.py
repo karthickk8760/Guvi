@@ -1,4 +1,4 @@
-def count(str):
+def cnt(str):
 	(max,c)=(-1,0)
 	r=[]
 	for i in range(len(str)):
@@ -17,7 +17,7 @@ def main():
 		l=[]
 		for i in range(n):
 			l.append(int(input()))
-		count(l)
+		cnt(l)
 	except:
 		print('invalid')
 main()
