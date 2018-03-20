@@ -17,4 +17,7 @@ def areIsomorphic(string1, string2):
     return True
 m=raw_input()
 n=raw_input()
-print(areIsomorphic(m,n));
+if(areIsomorphic(m,n)):
+    print("yes")
+else:
+    print("no")
