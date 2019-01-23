@@ -1,0 +1,5 @@
+n=input()
+k=int(input())
+p=int(input())
+nli=list(n)
+print(nli[k+p-1])
