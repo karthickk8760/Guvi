@@ -1,6 +1,9 @@
-string=input()
-strlist=list(string)
+n=int(input())
 op=[]
+strlist=[]
+for i in range(n):
+    s=input()
+    strlist.append(s)
 for i in range(len(strlist)):
     if i%2==0:
         if (i+1)<len(strlist):
