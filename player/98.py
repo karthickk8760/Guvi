@@ -9,7 +9,6 @@ while n!=0:
 for i in range(k+1):
     if i in li:
         sum+=1
-        print(sum)
 if sum==k:
     print("Yes")
 else:
