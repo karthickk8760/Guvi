@@ -1,2 +1,3 @@
-n=int(input())
-print(oct(n))
+n=input()
+temp=int(n,2)
+print(oct(temp))
