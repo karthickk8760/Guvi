@@ -30,4 +30,4 @@ def dag():
 			max=s
 		s=0
 	print(max)
-deg()
+dag()
